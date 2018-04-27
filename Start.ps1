@@ -17,7 +17,7 @@ $path = "DWM-Memory-Leak.exe"
 for ($i=0; $i -le $iterations; $i++)
 {
     $proc = Start-Process -filePath $path -PassThru
-    Start-Sleep -s 5
+    Start-Sleep -s 1
     $proc | kill
     [string]$i + ", " + (Get-Process -Name dwm).WS
 }
