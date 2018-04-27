@@ -84,3 +84,5 @@ Iteration, WorkingMemory
 ## Reference
 
 [DWM memory leak window 64b 1709](https://social.technet.microsoft.com/Forums/windows/en-US/a4594475-9676-4278-8e41-0fd26e4f5739/dwm-memory-leak-window-64b-1709?forum=win10itprohardware)
+
+[DWM memory leak as soon as App main window is resized because of LWA_COLORKEY since Window 10 Fall Creators Update (version 1709)](https://aka.ms/H13gvp)
